@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+    --primary-color: #020381;
+    --secondary-color: #8ed1fc;
+    --text-color: #abb8c3;
+    --background-color-main: #f7f7f7;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: black;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 100px;
+  }
