@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.header {    
+    width: auto;
+    height: 35rem;
+    background-image: url(https://wellnessplay.com.br/wp-content/uploads/2019/03/Mulher-treinando-com-swing-kettlebell-com-top-e-short-1024x576.jpg); 
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    .header__container {
+        position: absolute;
+        top: 180px;
+        left: 250px;         
+        width: 400px;
+        height: 20rem;
+        h1 {
+            font-size: 3.8rem;
+            font-weight: 800;
+            font-family: 'Kanit', sans-serif;
+            margin-bottom: 1rem;
+            color: #000000;
+            text-shadow: 3px 3px #c298e2;
+            animation-duration: 1.5s;
+            animation-name: slidein;            
+
+            @keyframes slidein {
+                from {
+                  margin-left: 100%;
+                  width: 300%;
+                }
+              
+                to {
+                  margin-left: 0%;
+                  width: 100%;
+                }
+              }
+        }
+
+    }    
+}
+
