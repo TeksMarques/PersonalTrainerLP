@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.scss';
+import { logo } from '../../assets/index';
 
 function navbar() {
   return (
@@ -7,7 +8,7 @@ function navbar() {
       <div className='navbar__container'>
         <div className='navbar__logo'>
           <img
-            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41ywOQuTODdNJwr792GE9rR364kveeul6-Q&usqp=CAU'
+            src={logo}
             alt='logo'
           />
         </div>

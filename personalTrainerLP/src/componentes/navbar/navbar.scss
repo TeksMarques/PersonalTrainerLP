@@ -3,7 +3,7 @@
 .navbar {
     width: 100%;
     height: 5rem;
-    background-color: #d0d3d2;
+    background-color: #797c79;
     .navbar__container{
         display: flex;
         flex-direction: row;
@@ -15,7 +15,8 @@
     }
     .navbar__logo {        
         img {
-            height: 5rem;
+            height: 10rem;
+            
         }
     }
     .navbar__menu{
@@ -32,7 +33,7 @@
                 h2{
                     font-size: 1.2rem;
                     font-weight: 300;
-                    color: #775f73;
+                    color: #412d3d;
                     font-family: 'Kanit', sans-serif;
                     cursor: pointer;
                 }
